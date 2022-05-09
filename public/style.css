@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body{
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;    
+}
+  
+  .topo {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  
+  .elementos-topo {
+    width: 935px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .elementos-topo-esquerda {
+    display: flex;
+  }
+  
+  .logo-instagram {
+    font-size: 19.25px;
+    margin: 0 auto;
+  }
+  
+  .minibarra-vertical-logo {
+    height: 22px;
+    width: 1px;
+    background-color: #DBDBDB;
+    margin-left: 11.38px;
+  }
+
+  .nome-instagram {
+      margin-left: 10px;
+  }
+
+  .elementos-topo-meio{
+      display: flex;
+      background-color: #FAFAFA;
+      border: solid 1px #DBDBDB;
+      width: 215px;
+      border-radius: 3px;
+      height: 28px;
+      margin-bottom: 13px;
+    }
+
+    ::placeholder{
+        text-align: center;
+    }
+
+  .elementos-topo-direita {
+      display: flex;
+  }
+
+  .paper-plan{
+      font-size: 17.87px;
+  }
+
+  .compass-outline{
+      font-size: 18.85px;
+      margin-left: 24.81px;
+  }
+  
+  .heart-outline{
+      font-size: 16.5px;
+      margin-left: 25.5px;
+  }
+
+  .person-outline{
+      font-size: 16px;
+      margin-left: 22.75px;
+  }
+
+  .borda-horizontal-topo{
+      width: 100%;
+      height: 1px;
+      background-color: #DBDBDB;
+  }
+
+  .container {
+      background-color: #FAFAFA;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;   
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .story-e-feed{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .barra-de-story{
+      background-color: #FFFFFF;
+      border: solid 1px #DBDBDB;
+      border-radius: 3px;
+      display: flex;
+      width: 596px;
+      height: 118px;
+      align-items: center;
+      padding-left: 18px;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+               
+  }
+      
+  .setinha-story{
+      border-radius: 50px;
+      position: absolute;
+      right: 8px;
+      box-shadow: 5px 7px 7px rgba(148, 145, 145, 0.7);
+      
+  }
+
+  .caixa-de-story {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 14px;
+  }
+
+
+  .fundo-imagem{
+      display: flex;
+      margin-right: 14px;
+      width: 66px;
+      height: 66px;
+
+  }
+
+  .imagem-story{
+    background-image: url("./images/stories_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 66px;
+    width: 66px;
+    border-radius: 50px;
+    
+  }
+
+  .imagem-story img{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+  }
+
+  .caixa-de-story p{
+    width: 50px;
+    margin-left: 14px;
+    margin-top: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .top-foto{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+      margin-left: 12px;
+      align-items: center;
+  }
+
+  .top-post-esquerda{
+      display: flex;
+      align-items: center;
+  }
+
+  .feed{
+    margin-top: 24px;
+    width: 614px;
+    height: 100%;
+  }
+
+  span{
+      font-weight: bold;
+  }
+
+  .caixa-de-foto{
+    border: solid 1px #DBDBDB;
+    border-radius: 3px;
+    width: 614px;
+    height: 749px;
+    margin-bottom: 60px;
+  }
+  
+
+  .nome-perfil{
+      margin-left: 15px;
+      font-weight: bold;
+  }
+
+  .reticencias{
+      font-weight: bolder;
+      padding-right: 10px;
+  }
+  
+  .foto{
+    padding-top: 13px;
+  }
+
+
+  .bottom-foto{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+
+  .bottom-esquerdo{
+      display: flex;
+  }
+
+  .bottom-direita{
+    margin-right: 17.62px;
+}
+
+  .heart{
+      font-size: 16.5px;
+      margin-left: 17.75px;
+  }
+
+  .chatbubble{
+      font-size: 17.88px;
+      margin-left: 17.81px;
+  }
+
+  .paper-plane{
+      font-size: 17.87px;
+      margin-left: 18.12px;
+  }
+
+  .bookmark{
+      font-size: 19px;
+  }
+
+  .curtidas{
+      display: flex;
+      margin-top: 10px;
+      align-items: center;
+  }
+
+  .icone-respondeai{
+      margin-left: 17px;
+  }
+
+  .quem-curtiu{
+      margin-left: 5px;
+  }
+
+  .sidebar{
+    width: 293px;
+    margin-left: 28px;
+  }
+
+  .topo-sidebar{
+      display: flex;
+      align-items: center;
+      margin-top: 23px;
+  }
+
+  .catanacomics{
+      margin-left: 17px;
+  }
+
+  .catanacomics h6{
+      color: #8E8E8E;
+  }
+
+  .sugestoes{
+      font-size:small;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+      color: #8E8E8E;
+  }
+
+  .sugestoes h6{
+     font-weight: bold;
+     color: black;
+  }
+
+  .bad-vibe-memes{
+      display: flex;
+      align-items: center;
+      margin-top: 17px;
+  }
+
+  .texto{
+      width: 292px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 11px;
+  }
+
+  .bad-vibe-memes p{
+      font-weight: bold;
+    
+  }
+
+  .bad-vibe-memes h6{
+      color:#8E8E8E      
+  }
+
+  .seguir{
+      color: #139EF2;
+  }
+
+  .rodape-sidebar{
+      margin-top: 33px;
+      font-size: smaller;
+      font-size: 11px;
+      text-align:justify;
+      color:#C7C7C7
+  }
+
+  .instagramdofacebook{
+      margin-top: 18px;
+  }
+ 
+
+    @media (max-width: 935px) {
+          .sidebar {
+              display:none;
+          }
+          .barra-de-story{
+              margin: 0;
+              padding: 0;
+              width: 60vw;
+          }
+
+          .caixa-de-story{
+              padding-left: 14px;
+          }
+
+          .feed{
+              width: 60vw;
+          }
+
+          .caixa-de-foto{
+              margin: 0;
+              margin-top: 60px;
+              width: 60vw;
+              height: auto;
+          }
+
+          .foto{
+            margin: 0;
+              width: 60vw;
+          }
+
+          .foto img{
+            margin: 0;
+              width: 60vw;
+          }
+
+          .top-foto{
+              margin-top: 10px;
+              margin-left: 10px;
+              width: 60vw;
+          }          
+          .reticencias{
+              margin-right: 10px;
+          }
+
+          .curtidas{
+              margin-bottom: 13px;
+          }
+    }
+
+    @media (max-width: 614px){
+            .sidebar {
+                display:none;
+            }
+
+            .nome-instagram, .minibarra-vertical-logo, .person-outline, .heart-outline, .compass-outline {
+                display: none;
+            }
+
+            .paper-plan{
+                padding-right: 10px;
+            }
+
+           
+            .barra-de-story{
+                margin: 0;
+                padding: 0;
+                margin-top: -35px;
+                width: 100vw;
+                background: #E5E5E5
+            }
+  
+            .caixa-de-story{
+                padding-left: 14px;
+            }
+
+            .imagem-story{
+                border-radius: 50%;
+            }
+  
+            .feed{
+                width: 100vw;
+                margin-top: -60px;
+            }
+  
+            .caixa-de-foto{
+              margin: 0;
+              margin-top: 60px;
+              width: 100vw;
+              height: auto;
+            }
+  
+            .foto{
+              margin: 0;
+              width: 100vw;
+            }
+  
+            .foto img{
+              margin: 0;
+                width: 100vw;
+            }
+  
+            .top-foto{
+                margin-top: 10px;
+                margin-left: 10px;
+                width: 100vw;
+            }          
+            .reticencias{
+                margin-right: 10px;
+            }
+  
+            .curtidas{
+                margin-bottom: 13px;
+            }
+    };
+  
